@@ -2,8 +2,8 @@ import subprocess
 import os
 
 namespace = "acc"
-source_pod_name = "sjenkins-57f55b945d-xmksc"  # Source Jenkins pod
-destination_pod_name = "djenkins-65dbdc545d-6jq4b"  # Destination Jenkins pod
+source_pod_name = "djenkins-65dbdc545d-6jq4b"  # Source Jenkins pod
+destination_pod_name = "sjenkins-57f55b945d-xmksc"  # Destination Jenkins pod
 kubectl_path = "/tmp/kubectl"  # Path to download kubectl
 source_directory = "/var/jenkins_home/jobs"
 local_directory = "/tmp/jenkins_jobs"  # Local directory where the jobs will be copied
